@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1099;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:rgba(0,0,0,0.2);
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 3px 3px 3px rgba(0,0,0,0.35);
+  }
+  
+  #myBtn i{
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 20%;
+  }
+  #myBtn:hover {
+    background-color:rgba(0,0,0,0.4);
+    padding-bottom: 20px;
+    color:#3bb78f;
+  }

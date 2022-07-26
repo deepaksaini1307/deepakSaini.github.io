@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+
+    <!---------Google font linking------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!---------Google font linking------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-------font-awesome for icons------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!---------Bootstrap cdn linking------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="contact_form.css">
+    <!---------Style  linking------->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="gallery_style.css">
+    <link rel="stylesheet" href="lightbox2.css">
+    <link rel="stylesheet" href="icon-chevron-up.css">
+    <link rel="stylesheet" href="contact-information.css">
+    <link rel="stylesheet" href="google_map.css">
+    <link rel="stylesheet" href="project_style.css">
+
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+    <!---------Bootstrap cdn linking------->
+
+    <main class="main">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="wrap d-flex ">
+                        <a href="javascript:void(0);" class="sidemenu-toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <nav class="menu reveal_left">
+                            <ul>
+                                <li><a href="#Home" class="nav-link  Home activelink">Home</a></li>
+                                <li><a href="#About" class="nav-link About">About</a></li>
+                                <li><a href="#Skills" class="nav-link Skills">Skills</a></li>
+                                <li><a href="#Projects" class="nav-link Projects">Projects</a></li>
+                                <li><a href="#Education" class="nav-link Education">Education</a></li>
+                                <li><a href="#Gallery" class="nav-link Gallery">Gallery</a></li>
+                                <li><a href="#Contact" class="nav-link Contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidemenu ">
+                <a href="javascript:void(0);" class="close"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#Home" class="side-nav-link  Home activelink">Home</a></li>
+                        <li><a href="#About" class="side-nav-link About">About</a></li>
+                        <li><a href="#Skills" class="side-nav-link Skills">Skills</a></li>
+                        <li><a href="#Projects" class="side-nav-link Projects">Projects</a></li>
+                        <li><a href="#Education" class="side-nav-link Education">Education</a></li>
+                        <li><a href="#Gallery" class="side-nav-link Gallery">Gallery</a></li>
+                        <li><a href="#Contact" class="side-nav-link Contact">Contact</a></li>
+                    </ul>
+                </nav>
+               
+            </div>
+        </header>
+    </main>
+
+
+    <!-- <header class="header-toggler">
+        <div class="container">
+            <div class="row">
+            
+                <a href="javascript:void(0);" class="sidemenu-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="container">
+                    <div class="row"> -->
+    <!-------Home markup starts-------->
+    <div class="sidemenu-remove">
+        <br><br><br>
+
+        <section class="home container text-while sect" id="Home">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="hero-text">
+                        <span class="title reveal_left">Hello i'm</span><br>
+                        <span class="name reveal_left">Deepak Saini</span><br>
+                        <div class="typer-container reveal_left">
+                            <p><span class="typed-text" style="font-family: 'Caveat'; font-style: italic;"></span>
+                                <span class="cursor">&nbsp;</span>
+                            </p>
+                        </div>
+                        <span class="email reveal_left"><i class="fa fa-envelope"></i>
+                            <a href="mailto:deepak1307saini@gmail.com">deepak1307saini@gmail.com</a> </span><br>
+                        <span class="phone reveal_left"><i class="fa fa-phone"></i> +916367131104</span><br>
+                        <span class="address reveal_left"><i class="fa fa-map-marker" style="font-size: 20px;"></i>
+                            Malviya
+                            National
+                            Institute of Technology, Jaipur</span><br>
+
+                        <div class="social home-social d flex reveal_left">
+
+                            <a href="https://www.facebook.com/deepak1307saini/" target="_blank"><i
+                                    class="fa fa-facebook-f"></i></a>
+                            <a href=""><i class="fa fa-github"></i></a>
+                            <a href="https://in.linkedin.com/in/deepak-saini-5370a6200" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/deepaksaini8690/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 reveal_top">
+                    <div class="hero-img">
+                        <div class="img-border">
+                            <img src="deepak.jpg" alt="Deepak.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-------About markup starts-------->
+        <br> <br> <br>
+
+        <section class="about sect" id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="">
+                            <img src="ds.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-white">
+
+                        <h2 class="reveal_bottom">About me</h2>
+                        <br>
+                        <p class="reveal_bottom">
+                            Hello, I’m Deepak. Pursuing my Bachelor of Technology Degree in
+                            Electronics and Communications Engineering (ECE) from Indian Institute of Information
+                            Technology, Kota ( IIIT KOTA ), mentored by Malviya National Institute of Technology,
+                            Jaipur.
+
+                        </p>
+                        <br>
+
+                        <div class="tag reveal_bottom">
+                            <ul>
+                                <li><span>C</span></li>
+                                <li><span>C++</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>Data Structure and Algorithm</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>SQL</span></li>
+                                <li><span>Firebase</span></li>
+                                <li><span>Android App</span></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="doenload-button reveal_bottom">
+                            <a href="https://drive.google.com/file/d/1vf5MH1bxV19V7Yy0rcO8YAc_3_8PplDn/view?usp=sharing" class="btn btn-danger">Download CV &nbsp; <i
+                                    class="fa fa-download fa-bounce"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------Skills chart markup starts ------>
+        <br><br><br><br>
+
+        <section class="mh-skills sect" id="Skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-skills-inner">
+                            <div class="mh-professional-skill">
+                                <h3 class="reveal_bottom">Technical Skills</h3>
+                                <div class="each-skills reveal_bottom">
+
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="name">Html</div>
+                                                <div class="percentage-num">70%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 70%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="name">CSS</div>
+                                                <div class="percentage-num">60%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 60%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="name">DSA</div>
+                                                <div class="percentage-num">50%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="name">JavaScript</div>
+                                                <div class="percentage-num">30%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 30%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-skills-inner">
+                            <div class="mh-professional-skills">
+                                <h3>Professional Skills</h3>
+                                <div class="wrapper">
+                                    <div class="row">
+                                        <div class="card reveal_bottom">
+                                            <div class="circle">
+                                                <div class="bar"></div>
+                                                <div class="box"><span></span></div>
+                                            </div>
+                                            <div class="text">Team Work</div>
+                                        </div>
+                                        <div class="card creativity reveal_bottom">
+                                            <div class="circle">
+                                                <div class="bar"></div>
+                                                <div class="box"><span></span></div>
+                                            </div>
+                                            <div class="text">Creativity</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="card time_man reveal_bottom">
+                                            <div class="circle">
+                                                <div class="bar"></div>
+                                                <div class="box"><span></span></div>
+                                            </div>
+                                            <div class="text">Time management</div>
+                                        </div>
+                                        <div class="card Communication reveal_bottom">
+                                            <div class="circle">
+                                                <div class="bar"></div>
+                                                <div class="box"><span></span></div>
+                                            </div>
+                                            <div class="text">Communication</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br> <br> <br>
+
+        <!------Projects------>
+        <section class="projects  sect" id="Projects">
+
+            <div class="container">
+                <h2 class="projects-title">Projects</h2>
+
+                <ul class="projects-container">
+                    <li class="list-item reveal_bottom1">
+                        <div class="project-container project-card">
+                            <img src="images/aryans.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                            <h3 class="project-title">The Aryans Club</h3>
+                            <p class="project-details">
+                                Website for International Society for Krishna Consciousness Organization --
+                                Currently live and used by 600+ monthly users
+                                , Consist NoSQL Database
+
+                            </p>
+                            <a href="https://thearyansclub.com/index.html" target="_blank" class="project-link">Check it
+                                Out</a>
+                        </div>
+                    </li>
+                    <li class="list-item reveal_bottom2">
+                        <div class="project-container project-card">
+                            <img src="images/elektu_all.png" alt="netflic-clone" loading="lazy" class="project-pic" />
+                            <!-- <div class="pop_up_image">
+                     <img src="images/elektu_all.png" alt="expense-tracker" loading="lazy" />
+                 </div> -->
+                            <h3 class="project-title">Elektu <span
+                                    style="display:block ; margin-top:-12px"></span><small>(A
+                                    Smart locking System)</small></h3>
+                            <p class="project-details">
+                                The user can access the bicycle through multiple options such as Bluetooth, QR
+                                Code, Fingerprint sensor and the mobile application (Android App).
+                                Consist Firebase Database, User verification using OTP
+                            </p>
+                            <a href="https://drive.google.com/file/d/1PzYJ-KQnTxxOyz2fsyKnilZLlZ4Ez1Vx/view?usp=sharing" target="_blank" class="project-link">Check it Out</a>
+                        </div>
+                    </li>
+                    <li class="list-item reveal_bottom3">
+                        <div class="project-container project-card">
+                            <img src="images/porfolio.image.png" alt="greeny-earth" loading="lazy"
+                                class="project-pic" />
+                            <h3 class="project-title">Portfolio</h3>
+                            <p class="project-details">
+                                It is a representation of my all that I've learned and accomplished as a B.Tech.(ECE)
+                                student.
+                                It is fully animated and containing a contact for also.
+                            </p>
+                            <a href="#" target="_blank" class="project-link">Check it Out</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+        <!-------Education-------->
+        <br> <br> <br> <br>
+
+        <section class="mh-experience  sect" id="Education">
+            <div class="container">
+                <div class="row">
+                    <h3>Education</h3><br>
+                    <div class="mh-education-details">
+                        <div class="mh-education-item item1 reveal_bottom">
+                            <h4>Bachelor of Technology<a href=""> 7.67 CGPA</a><sub
+                                    style="font-size: 12px; opacity:0.4">(Till 6th Semester)</sub></h4>
+                            <div class="mh-eduyear">2019-2023</div>
+                            <p>
+                                Indian Institute of Information Technology Kota, Jaipur - B.Tech in Electronics and
+                                Communication and Engineering branch.
+
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6  mh-education-item item2 reveal_bottom">
+                                <h4>12th RBSE <a href="">89.20%</a></h4>
+                                <div class="mh-eduyear">2017-18</div>
+                                <p>
+                                    Saini Adarsh Vidhya Mandir Sr. Sec. School(Main Branch), BANDIKUI (303313)
+                                </p>
+                            </div>
+                            <div class="col-md-6 mh-education-item item3 reveal_bottom">
+                                <h4>10th RBSE <a href="">82.83%</a></h4>
+                                <div class="mh-eduyear">2015-16</div>
+                                <p>Saini Adarsh Vidhya Mandir Sr. Sec. School Panchmukhi Panditpura,BANDIKUI (303313)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br> <br> <br>
+        <section class="gallery_images  sect" id="Gallery">
+            <div class="container">
+
+                <h3>Gallery</h3>
+                <div class="row">
+                    <div class="gallery">
+                        <a href="images/1.jpg" data-lightbox="models" data-title="A night program in Mnit">
+                            <img src="images/1.jpg" alt="">
+                        </a>
+                        <a href="images/2.jpg" data-lightbox="models" data-title="Hearing live songs in Mnit">
+                            <img src="images/2.jpg" alt="">
+                        </a>
+                        <a href="images/3.jpg" data-lightbox="models" data-title="Visit of IIT Dehli in 2nd Semester">
+                            <img src="images/3.jpg" alt="">
+                        </a>
+                        <a href="images/4.jpg" data-lightbox="models"
+                            data-title="Group photo with after presenting the CID project">
+                            <img src="images/4.jpg" alt="">
+                        </a>
+                        <a href="images/5.jpg" data-lightbox="models"
+                            data-title="A photo after the presentation of major project">
+                            <img src="images/5.jpg" alt="">
+                        </a>
+                        <a href="images/6.jpg" data-lightbox="models" data-title="A visit in Kanak Ghati jaipur">
+                            <img src="images/6.jpg" alt="">
+                        </a>
+                        <!-- <a href="images/7.jpg" data-lightbox="models"
+                            data-title="Visiting vrindavan in traditional dress">
+                            <img src="images/7.jpg" alt="">
+                        </a> -->
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <br> <br> <br>
+
+        <section class="mh-contact sec  sect" id="Contact">
+
+            <div class="container">
+                <h3>Contact me</h3>
+                <div class="row">
+                    <div class="contact-information">
+                        <div class="card reveal_bottom1">
+                            <div class="circle">
+                                <div><i class="fa fa-location-arrow"></i></div>
+                            </div>
+                            <div class="info">
+                                <h4>Address</h4>
+                                <p>Laungi walo ka bas, Badiyal road, Bandikui</p>
+                            </div>
+                        </div>
+                        <div class="card reveal_bottom2">
+                            <div class="circle">
+                                <div><i class="fa fa-envelope-o"></i></div>
+                            </div>
+                            <div class="info">
+                                <h4>Email</h4>
+                                <p>deepak1307saini@gmail.com</p>
+                                <p>2019kuec2053@iiitkota.ac.in</p>
+                            </div>
+                        </div>
+                        <div class="card reveal_bottom3">
+                            <div class="circle">
+                                <div><i class="fa fa-phone"></i></div>
+                            </div>
+                            <div class="info">
+                                <h4>Phone</h4>
+                                <p>+916367131104</p>
+                                <p>+917742765654</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-md-6" style="margin-bottom: 40px;">
+
+                        <div class="contact-form reveal_bottom">
+
+                            <form action="index.html" autocomplete="off" id="contact-form">
+
+                                <div class="full_name">
+                                    <div class="input-container">
+                                        <input type="text" name="first_name" class="input" required />
+                                        <label for="">First Name</label>
+                                        <span>First Name</span>
+                                    </div>
+                                    <div class="input-container">
+                                        <input type="text" name="last_name" class="input" />
+                                        <label for="">Last Name</label>
+                                        <span>Last Name</span>
+                                    </div>
+                                </div>
+
+                                <div class="input-container">
+                                    <input type="email" name="user_email" class="input" required />
+                                    <label for="">Email</label>
+                                    <span>Email</span>
+                                </div>
+                                <div class="input-container">
+                                    <input type="tel" name="user_phone" class="input" />
+                                    <label for="">Phone</label>
+                                    <span>Phone</span>
+                                </div>
+                                <div class="input-container textarea">
+                                    <textarea name="message" class="input" required></textarea>
+                                    <label for="">Message</label>
+                                    <span>Message</span>
+                                </div>
+                                <button type="submit" class="btn" onmouseenter="hoverImg(this)"
+                                    onmouseleave="normalImg(this)" value="Send"><i id="send_text"
+                                        style="display: none;font-style: normal;">Send</i><i class="fa"
+                                        id="send_icon">&#xf1d8;</i></button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-google-map reveal_bottom3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2459625434426!2d75.80856051436467!3d26.863925468657282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db679c6fbc681%3A0xdcecd2a40276bda2!2sPrabha%20Bhawan%20Mnit%20Jaipur!5e0!3m2!1sen!2sin!4v1658414269939!5m2!1sen!2sin"
+                                width="100%" style="border:0; " allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row" style="text-align:center;justify-content: center;">
+                <p style="color:white;opacity:0.7;display: block;font-size: small;">&#169; Copyright. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-----Section indicator----->
+
+    <script src="scrollrevel.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.reveal_bottom', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.3,
+            interval: 150,
+            // easing: 'cubic-bezier(.45,.97,.48,-0.13)', https://cubic-bezier.com/#.45,.97,.48,-0.13
+        });
+        sr.reveal('.reveal_top', {
+            duration: 2000,
+            origin: 'top',
+            distance: '300px',
+        });
+        sr.reveal('.reveal_left', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            interval: 100,
+        });
+        sr.reveal('.reveal_bottom1', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.3
+        });
+
+        sr.reveal('.reveal_bottom2', {
+            duration: 1300,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.3
+        });
+
+        sr.reveal('.reveal_bottom3', {
+            duration: 1600,
+            origin: 'bottom',
+            distance: '300px',
+            viewFactor: 0.3
+        });
+
+    </script>
+
+    <!-- <script  src="https://unpkg.com/scrollreveal">
+        ScrollReveal().reveal('.all', { viewFactor: 0.5 });
+    </script> -->
+
+    <!-----Contact form----->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('si2ejtoNKFZLcbsSL');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                // these IDs from the previous steps
+                emailjs.sendForm('service_dowioxc', 'template_rlgsa1n', this)
+                    .then(function () {
+                        console.log('SUCCESS!');
+                    }, function (error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+
+    <script src="contact_form.js"></script>
+    <!------Go to top icon----->
+    <script src="icon-chevron-up.js"></script>
+
+    <!-----For Gallery------>
+    <script src="lightbox-plus-jquary.js"></script>
+
+    <!-------For interactive, use jquery cdn linking------>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-----Plugin jquary for professional skills------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+    <script src="homeSlector.js"></script>
+    <!-------Side menu work------->
+    <script>
+        $(document).ready(function () {
+            $(".sidemenu-toggler").click(function () {
+                $(".sidemenu").addClass("active");
+            });
+
+            $(".close").click(function () {
+                $(".sidemenu").removeClass("active");
+            });
+
+            // Header on scroll sticky
+            $(window).scroll(function () {
+                var sc = $(window).scrollTop();
+                if (sc > 10) {
+                    $(".header").addClass("sticky");
+                }
+                else {
+                    $(".header").removeClass("sticky");
+                }
+            });
+        });
+
+
+        const ham = document.querySelector('.sidemenu');
+
+
+        const navLink = document.querySelectorAll(".side-nav-link");
+        const main = document.querySelectorAll(".sidemenu-remove ");
+
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+        main.forEach(n => n.addEventListener("click", closeMenu));
+
+
+
+        function closeMenu() {
+            ham.classList.remove("active");
+
+        }
+
+    </script>
+
+    <script src="about.js"></script>
+
+    <script src="section_indicator.js"></script>
+</body>
+
+</html>

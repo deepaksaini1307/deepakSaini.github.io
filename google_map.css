@@ -1,0 +1,16 @@
+.mh-google-map{
+    width: 100%;
+  
+    height: 522px;
+}
+
+.mh-google-map iframe{
+    height: 100%;
+}
+
+@media(max-width:767px)
+{
+    .mh-google-map{
+        height: calc(0.83333 * 100vw - 80.66px);
+    }
+}
